@@ -14,5 +14,3 @@ centena: int = math.trunc(soma_valores % 100 / 10)
 milhar: int = soma_valores % 100
 digito_verificador = (dezena * 1 + centena * 2 + milhar * 3) % 10
 print("Digito Verificador: ", digito_verificador)
-
-print(dezena, centena, milhar)

@@ -36,7 +36,7 @@ del listona
 
 # 4. Faça uma lista de compras do mês, não se esqueça de comprar produtos de limpeza e sorvete!
 lista_compras = ['Água sanitária', 'Detergente', 'Desinfetante', 'Escova', 'Sorvete']
-
+print(lista_compras)
 # Agora «vá ao mercado» e delete apenas os produtos de limpeza da lista.
 del lista_compras[:4]
 print(lista_compras)

@@ -11,3 +11,5 @@ elif(sigla == 'MG'):
     print("Mineira")
 elif(sigla == 'SP'):
     print("Paulista")
+else: 
+    print("Outros estados")

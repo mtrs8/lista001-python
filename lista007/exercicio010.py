@@ -4,7 +4,7 @@
 import math
 
 sair = 1
-while sair != 0:
+while sair:
     numero = int(input("Insira valor: "))
     if(numero < 0):
         print("Não é possível calcular raiz quadrada de números negativos, insira novamente!")

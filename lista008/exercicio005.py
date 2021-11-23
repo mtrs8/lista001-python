@@ -1,8 +1,10 @@
-# 5) Verificar IP Address valido
+# 5) Verificar IPV4 Address valido
 
 def verifica_ip(ip):
     is_valid = False
     partes = ip.split(".")
+    if len(partes) != 4:
+        return False
     for i in range(len(partes)):
         if(checa_string(partes[i])):
             is_valid = True
@@ -12,7 +14,6 @@ def verifica_ip(ip):
 def checa_string(a):
     try: return str(int(a)) == a and 0 <= int(a) <= 255
     except: return False
-
 
 ip_address = input('Digite um IP: ')
 if(verifica_ip(ip_address)):
